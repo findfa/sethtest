@@ -34,7 +34,27 @@ button:hover {
 
 a {
     display: block;
+ .courses {
+            margin-top: 20px;
+        }
+        .course-card {
+            border: 1px solid #ccc;
+            border-radius: 10px;
+            padding: 15px;
+            margin-bottom: 15px;
+            background: #f9f9f9;
+        }
+        .course-card h3 {
+            margin-top: 0;
+        }
+        .course-card ul {
+            margin: 5px 0 0 20px;
+        }
+
+
+    
     text-align: right;
     font-size: 12px;
     margin-top: 5px;
 }
+
