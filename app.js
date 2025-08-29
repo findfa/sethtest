@@ -74,3 +74,15 @@ function resetPassword() {
             .catch(err => alert(err.message));
     }
 }
+
+db.collection("users").add({
+    firstName: "John",
+    lastName: "Doe",
+    email: "john@example.com"
+})
+.then(docRef => {
+    console.log("Document written with ID: ", docRef.id);
+})
+.catch(error => {
+    console.error("Error adding document: ", error);
+});
